@@ -1,4 +1,3 @@
-import ArrayExtensions from './ArrayExtensions.js';
 class NumberArray extends Array{
     sum = () => this.reduce((previousValue, currentValue) => (previousValue + currentValue),0);
 

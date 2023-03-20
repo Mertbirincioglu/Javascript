@@ -5,5 +5,5 @@ class NumberArray extends Array{
     
     min = Math.min.apply(this);
 
-    maxMinDiff = () => this.max - this.min; 
+    maxMinDiff = () => this.max - this.min;
 }
